@@ -7,7 +7,7 @@ import { calculateBarPercentage, daysLeft } from "../utils";
 
 const CampaignDetails = () => {
   const { state } = useLocation();
-  // DisplayCampaigns 컴포넌트에서 state 값으로 보낸 값을 사용
+  // DisplayCampaigns 
   const { donate, getDonations, contract, address } = useStateContext();
 
   const navigate = useNavigate();
